@@ -1,3 +1,7 @@
+This is the backend code to the real-time crime reporting mobile application Hushiar. 
+The backend has been handled by NodeJS and postgreSQL for the database integration. 
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
