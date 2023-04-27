@@ -1,5 +1,16 @@
-This is the backend code to the real-time crime reporting mobile application Hushiar. 
-The backend has been handled by NodeJS and postgreSQL for the database integration. 
+<p>This is the backend code to the real-time crime reporting mobile application Hushiar. 
+The backend has been handled by NodeJS and postgreSQL for the database integration. Some necessary commands required to run the backend code properly are mentioned in the following: npm install db-migrate-pg ckass-validator ; npm run migration:up
+
+</p>
+
+<p>
+
+The backend code has been tested via Postman, by running a POST request. 
+
+
+</p>
+
+
 
 
 <p align="center">
