@@ -7,6 +7,38 @@ The backend has been handled by NodeJS and postgreSQL for the database integrati
 
 The backend code has been tested via Postman, by running a POST request. 
 
+</p>
+
+<p>
+The migrations folder contains the .js files which are created automatically once the npm run migration:up command is run. Other than this, there is also a database,json file, which contains the different types of users of the application. Lastly, the sqls folder contails the .sql files, that are the up and down .sql files. The up.sql files are the ones to create a certain table in the database, while the down.sql files are for dropping that particular table.
+</p>
+
+
+<p>
+Under the src folder, there exists the database folder, which contains the connection.ts file. 
+</p>
+
+<p>
+The models folder contains the model.ts files of the tables. Each model.ts file contains each column attribute.
+</p>
+
+<p>
+The modules for the tables are also under the src folder. Each module folder contains .controller.spec.ts, controller.ts, module.ts, service.spec.ts and finally the service.ts files. 
+
+</p>
+
+<p>
+The .db-migraterc file contains the pathway for the databse.json file.
+
+</p>
+
+<p>
+The .env file contains the necessary information about the database, namely the host, user, port, password, database name and schema. 
+
+</p>
+
+<p>
+The package.json file has been updated with the migration:up, migration:down and the migration:create script.
 
 </p>
 
